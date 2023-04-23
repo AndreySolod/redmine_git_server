@@ -1,1 +1,2 @@
-gem 'grack', '0.1.1'
+gem 'grack'
+gem 'deface', '1.9.0'

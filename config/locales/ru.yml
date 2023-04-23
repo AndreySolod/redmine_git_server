@@ -1,0 +1,9 @@
+en:
+  project_module_git_server: Git Server
+  clone: Клонировать
+  clone_with_protocol: Клонировать с использованием %{protocol}
+  use_git_with_this_web_url: Использовать Git с этим URL.
+  url_copied: URL скопирован
+  git_read_write_access: Доступ на чтение/запись.
+  git_read_only_access: Доступ только на чтение.
+  empty_repository: Это хранилище пустое.

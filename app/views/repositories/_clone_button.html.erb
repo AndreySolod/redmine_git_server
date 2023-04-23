@@ -7,7 +7,7 @@
     <%= button_tag l(:clone), type: 'button', class: 'drdn-trigger clone-button' %>
     <%= content_tag :div, class: 'drdn-content clone-dropdown' do %>
       <% protocol = Setting['protocol'] %>
-      <h4><%= l(:clone_with_protocol, protocol: protocol.upcase) %></h4> 
+      <h4><%= l(:clone_with_protocol, protocol: protocol.upcase + 'S') %></h4>
       <%= render 'clone_form' %>
     <% end %>
   <% end %>
