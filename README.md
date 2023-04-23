@@ -17,19 +17,17 @@ Screenshot
 Installation
 ------------
 
-This plugin is tested with Redmine 4.1+ (but it could be compatible with other versions).
+This plugin is tested with Redmine 5.0+ (but it could be compatible with other versions).
 
 Please apply general instructions for plugins [here](http://www.redmine.org/wiki/redmine/Plugins).
 
-Note that this plugin depends on this other plugin:
-* **redmine_base_deface** [here](https://github.com/jbbarth/redmine_base_deface)
 
 First download the source or clone the plugin and put it in the "plugins/" directory of your redmine instance. Note that this is crucial that the directory is named 'redmine_git_server'!
 
 Then execute:
 
     $ bundle install
-    $ rake redmine:plugins
+    $ RAILS_ENV=production bundle exec rake redmine:plugins:migrate
 
 And finally restart your Redmine instance.
 
